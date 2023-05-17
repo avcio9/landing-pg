@@ -117,11 +117,21 @@ body {
     color: grey
 }
 
+.portfolio h1 {
+    font-size: 62px;
+    margin-bottom: 5px;
+}
+
+.portfolio h2 {
+    padding-top: 20px;
+    font-size: 24px;
+    color: grey
+}
+
 .services-parent {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin: 0 320px;
     display: flex;
 }
 
@@ -163,4 +173,72 @@ body {
 
 .services .fa-solid {
     color: #e4c70c;
+}
+
+.portfolio {
+    background-color: #f8f7f4;
+    padding-bottom: 100px;
+}
+
+.row-element {
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 30px;
+}
+
+.row-element:hover {
+    transform: scale(1.05);
+    transition-duration: 0.3s;
+  }
+
+.container-portfolio {
+    background-color: white;
+    margin: auto auto;
+}
+
+.row-element img {
+    width: 100%;
+}
+
+.portfolio-text h1 {
+    font-size: 26px;
+    margin-bottom: 0;
+    line-height: 2px;
+    padding-top: 10px;
+}
+
+.portfolio-text h2 {
+    margin-top: 0;
+    padding-bottom: 20px;
+}
+
+.container-portfolio img {
+    height: 400px;
+}
+
+footer {
+    margin: 50px 0;
+}
+
+footer .container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-img {
+    position: absolute;
+    justify-self: center;
+    align-self: center;
+}
+
+footer i:hover {
+	transform: scale(1.2);
+	transition-duration: 0.3s;
+}
+
+footer i {
+    margin: 0 5px;
+    color: black;
 }
